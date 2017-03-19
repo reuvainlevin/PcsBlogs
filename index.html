@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+        
+        #prevNext,
+        #button,
+        #pageNumbers {
+            text-align: center;
+            margin: 10px;
+        }
+        
+        #pageNumbers {
+            color: white;
+        }
+        
+        #users {
+            height: 380px;
+            list-style-type: none;
+            overflow: auto;
+            border-radius: 2px;
+        }
+        
+        #header,
+        #users {
+            background-color: white;
+            width: 800px;
+            margin: 0 auto;
+            border: 15px solid grey;
+            padding: 10px;
+        }
+        
+        #header {
+            text-align: center;
+            border-bottom-width: 0;
+            height: 85px;
+        }
+        
+        h1 {
+            margin: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1> PCS Bloggers</h1>
+        <div id="extraStuff"></div>
+    </div>
+
+    <ul id="users">
+    </ul>
+    <div id="pageNumbers">
+    </div>
+    <div id="prevNext">
+    </div>
+    <div id="button">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="test.js"></script>
+
+</body>
+
+</html>
